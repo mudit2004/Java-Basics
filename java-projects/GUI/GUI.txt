@@ -1,0 +1,30 @@
+GUI    <-- Graphical User Interface
+---
+
+-> user interacts with the program with Graphical methods.
+-> In Gui we need to do :
+	> Designing the user interface. 
+	> logic. 
+-> This type of event is called as Delegation Event Model.
+-> Delegation Event Model is used to design Java Gui.
+-> Delegation Event Model has three things :
+	> Event
+	> EventSource
+	> EventListener (Has the logic)
+-> Most of the Time , An Event is an user defined Action or some time it is a Bulit-in Action (like... Timer Object)
+-> Each Event is registered to an EventListener.
+-> Event and EventSource are class, And EventListener is interface.
+-> Event Source can have multiple EventListener.
+
+import java.awt.*;
+import java.awt.event.*;
+
+import java.util.*;
+import javax.swing.*;
+
+Awt Vs String 
+-> Abstract window ToolKita
+
+-> Panel , frame , Window
+-> Panel will not have status bar.
+-> Frame has Menu

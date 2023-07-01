@@ -1,0 +1,16 @@
+Collection (API)
+----------
+
+-> java.util.Collection ... ArrayList 
+-> mostly of the methods in Class ArrayList are interface.
+-> Interface :
+		> Iterator - Traversal of data.
+		> Spliterator - parallel processing - splits the data - compared to Iterator ...Spliterator is faster.
+		> Comparator - Traversal with sorting in behind - additional user-defined class is required.
+-> Set - no dupicaiton datamember
+-> List - 
+-> Map - Key:Valur pair (like python).
+
+-> Syntax :
+	> ArrayList<Classname> obj = new ArrayList<Classname>(); (we have 3 constructor- one default and two one-parameter onstructor)
+	> ArrayList<Classname> obj = new ArrayList<Classname>(int); 

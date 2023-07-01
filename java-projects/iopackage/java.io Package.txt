@@ -1,0 +1,26 @@
+java.io Package
+---------------
+
+->Input-Output Devices --- Abstraction 
+-> Stream - avaiable in python 
+   -------
+-> Stream --> Abstraction of input and output 
+
+->Type:
+	->byte-oriented --> 11001100 <- 8-bit data.
+	->character-oriented --> unicode
+
+
+->Base Class for Byte-oriented:
+	..InputStream
+		->BufferedInputStream     |
+		->FileInputStream         |
+		->ObjectInputStream       |   <--Derived class
+		->DataInputStream         |
+	..OutputStream
+
+->Base Class for character-oriented:
+	..Reader
+	..writer
+
+-> Package = java.io.*

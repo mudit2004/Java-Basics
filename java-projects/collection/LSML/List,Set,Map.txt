@@ -1,0 +1,20 @@
+List , Set , Map
+----------------
+
+->List:
+	..> Arraylist - add and remove
+	..> LinkedList - add, addFirst ,addLast , addPrevious, remove ,removeLast, removFirst.  (by deafult in java , it is a 		doubly linked list) 
+
+-> Set:
+	..> HashSet (unsorted - coz it is store relating to hash value.
+	..> TreeSet (sorted)
+	..> LinkedHashSet
+
+-> Map:
+	..> HashMap
+	..> TreeMap
+	..> LinkedHashMap
+
+ArrayList , LinkedList - Iterator, ListIterator (updation) , Comparator 
+HashSet , TreeSet . LinkedTreeSet - Iterator , Comparator
+HashMap , TreeMap , LinkedHashMap - Iterator , Comparator*.

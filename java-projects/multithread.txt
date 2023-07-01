@@ -1,0 +1,56 @@
+
+
+Multithreading
+--------------
+
+-> only java is the only high level lang which supports multithreading.
+
+-> Multiprogramming
+	-> Context switching -- costly -- memory
+
+-> Multitasking (HEAVY WEIGHT)
+	-> interleaved execution of more than one task.
+	-> Context switching is mandatory of Multitasking and Multiprogramming.
+
+-> Multithreading (LIGHT WEIGHT)
+	-> No need for Context switching.
+	-> Thread means execution point.
+	-> We are changing execution points in multithreading.
+	-> PROBLEM: Dependance between statement. --- SOLUTION: To be executed in an synchronised manner or 
+																	"SYNCHRONIZED THREAD"
+	-> Interthread communication
+
+-> java.lang.Thread (class)
+-> java.lang.Runnable (interface)
+
+	Thread State
+		  _______
+		  |New |	
+		  -------
+                    |
+suspende()          |		Start()
+    	 ___________________________
+		
+	 |runnable |   | running |
+		|              |
+	 ____________________________
+		|	       |
+   wait()	|              | |	Stop()
+       |
+	ready to   |      Assigning 
+	  cpu.     |	to cpu.
+	           |
+                   | 
+		_____________
+		| dead or   |
+		| terminate |
+		-------------
+
+
+-> In dead and Running state ,u cant print.
+
+-> function:
+	-> t.getName()
+	-> t.getState()
+	-> t.getPriority()
+	-> t.isAlive()

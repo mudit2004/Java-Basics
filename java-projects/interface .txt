@@ -1,0 +1,117 @@
+Syllabus - except exception 
+
+Part A - error and debugging.
+Part B - scenario based question.
+
+
+	Interface
+	---------
+
+-> without interface - multiple inheritance not possible.
+-> interface is complete abstract class.
+-> No need to create dummy class.
+
+Class A{
+	--
+	--
+	abstract void area(){
+	}
+}
+
+-> if all member function are abstract, then the class is completely abstract.
+-> but even if one function is not abstract , then the class is not completely abstract 
+
+Syntax
+------
+
+interface <interface1>{
+	datatype1 v1 = <value>         <---- these are final and static const.
+	datatype2 v2 = <value>
+
+	<returntype1> <function_name1>(Dt1 va1, Dt2 va2);
+	<returntype2> <function_name2>();
+}
+
+
+Rule
+----
+-> all data member are final and static.(don't keep keyword final and static)
+-> all method becomes abstract by default.
+-> data-member and methods should not be private.
+
+
+
+Syntax 
+------
+
+Class <classname> implements <interface>{
+	----
+	----
+	<returntype1> <function_name1>(Dt1 va1, Dt2 va2){         <--- should be exactly same like in interface
+		---- //definition
+		----
+	}
+
+}
+
+Rule
+----
+-> forcefully define all the methods or else the class becomes an abstract class.
+-> Access specifier should not private and not protected.
+
+
+
+interface <interface2> extends <interface1>{
+	---
+	---
+	<returntype2> <function_name2>();
+}
+
+class <classname> implements <interface1>,<interface2>{         <---- multiple interface is allowed.
+	----
+	----
+
+}
+
+class <classname> extends A implements B{         <---- multiple inheritance 
+}
+																					_______________
+																					|adaptor class|
+																					---------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

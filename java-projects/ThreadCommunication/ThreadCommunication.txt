@@ -1,0 +1,13 @@
+
+Thread Communication 
+--------------------
+
+->wait()
+->wait(long)
+->notify()
+->notifyall()
+
+synchronized{
+---
+---
+}

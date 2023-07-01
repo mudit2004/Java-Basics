@@ -1,0 +1,42 @@
+MAP
+---
+-> >key,value>
+-> no dulicate key -- but if you want to dulicate then there is a clas weakset.
+-> Iterator is not allowed. But Comparator is used.
+-> In java we have :
+			>HashMap -- Unsorted
+			>TreeMap -- sorted based on "KEY" (Either by String or int/float/double or else need to be define)
+			>LinkedHashMap -- Extra navigation is posible since it is a linkde hash.
+
+-> ClassCastException
+
+HashMap
+-------
+
+HashMap<key,value> hm = new HashMap<>();
+
+
+HashMap<String,Double> hm = new HashMap<String,Double>();
+hm.put("Alice",12000.00);
+hm.get("Alice");
+hm.getKey("Alice");
+hm.getValue("Alice");
+
+Comparator
+----------
+
+int compare(obj1,obj2)
+=0
+=Positive(-1)
+=Negative(1)
+
+
+boolean equals(obj1,obj2)
+
+
+naturalSort
+reverseSort()/reversed()
+
+John Alice
+
+thenComparing()
